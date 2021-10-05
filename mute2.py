@@ -76,7 +76,7 @@ def PlayYoutube():
 	presence = EC.presence_of_element_located
 	visible = EC.visibility_of_element_located
 	
-	# Navigate to url with video being appended to search_query
+	# Navigate to url after appending video id to watch link
 	driver.get('https://www.youtube.com/watch?v={}'.format(str(id)))
 
 	# play the video
