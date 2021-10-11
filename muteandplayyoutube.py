@@ -95,7 +95,7 @@ def PlayYoutube():
 # this is a comment test
 
 
-if __name__	== '__main__':    # keep looping over main
+if __name__	== '__main__':    # keep looping over main function
 	try:
 		while(True):
 			main()
