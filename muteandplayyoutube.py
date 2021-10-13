@@ -85,14 +85,14 @@ def PlayYoutube():
 	
 
 
-#def PauseYoutube():
-#	driver.execute_script('document.getElementsByTagName("video")[0].pause()')
+def PauseYoutube():
+	driver.execute_script('document.getElementsByTagName("video")[0].pause()')
 
 
-#def PlayYoutube():
-#	driver.execute_script('document.getElementsByTagName("video")[0].play()')
+def PlayYoutube():
+	driver.execute_script('document.getElementsByTagName("video")[0].play()')
 
-# this is a comment test
+ 
 
 
 if __name__	== '__main__':    # keep looping over main function until keyboard interrupt
